@@ -1,0 +1,16 @@
+.aside {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    grid-column: 4/5;
+    grid-row: 2/14;
+
+    @media (max-width: 768px) {
+        margin-right: 1rem;
+    }
+
+    @media (max-width: 576px) {
+        display: none;
+    }
+
+    
+}
